@@ -1,7 +1,7 @@
 const fs = require('fs')
 const readline = require('readline');
 
-const requiredFiles = ["a_example", "b_small", "c_medium"];
+const requiredFiles = ["a_example", "b_small", "c_medium", "d_quite_big", "e_also_big"]
 
 requiredFiles.forEach((fileName) => {
   let data = [];
